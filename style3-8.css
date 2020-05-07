@@ -1,0 +1,40 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #6c6b6b;
+}
+.box1{
+	width: 960px;
+	height: 500px;
+	margin: 0 auto;
+}
+.list{
+	padding: 20px;
+}
+.list:nth-child(odd){
+	background-color: #eee;
+}
+.box2{
+	width: 960px;
+	background-color: green;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+.main-box:first-child,
+.main-box:last-child,
+.main-box:nth-child(5){
+  background-color: orange;
+}
+.main-box{
+	width: 30%;
+	height: 200px;
+	background-color: yellow;
+	float: left;
+	margin-right: 5%;
+	margin-bottom: 40px;
+}
+.main-box:nth-child(3n){
+	margin-right: 0;
+}
